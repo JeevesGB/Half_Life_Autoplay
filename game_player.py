@@ -63,24 +63,25 @@ try:
     time.sleep(1) # Delay before the actions start
 
     # Execute actions in sequence (In Seconds)
-    move_forward(1.8)    # Move forward
-    jump()             # Jump
-    time.sleep(18)    # Wait for first door
-    move_forward(1.8)  # Move forward
-    time.sleep(15)     # Wait 2nd door
-    move_forward(0.5)  # Move toward desk
-    turn_right(0.3)   # Turn right slightly
-    move_forward(1.5)  # Forward into coridoor
-    turn_left(0.31)    # Slight left
-    move_forward(2.9)  # Move forward down coridoor
+    move_forward(1.8)   # Move forward
+    jump()              # Jump
+    time.sleep(18)      # Wait for first door
+    move_forward(1.8)   # Move forward
+    time.sleep(15)      # Wait 2nd door
+    move_forward(0.5)   # Move toward desk
+    turn_right(0.3)     # Turn right slightly
+    move_forward(1.5)   # Forward into coridoor
+    turn_left(0.31)     # Slight left
+    move_forward(2.9)   # Move forward down coridoor
     turn_left(0.48)     # Turn left
-    move_forward(0.9)  # Move down corridoor
+    move_forward(0.9)   # Move down corridoor
     move_forward(0.39)  # Move forward
-    turn_right(0.5)    # Turn right to go down ramp
-    move_forward(0.8)  # Move Forward down ramp
-    jump()             # Jump
-    move_forward(3) # Move forward
-    turn_right(0.5) # Turn towards changing room coridoor
+    turn_right(0.5)     # Turn right to go down ramp
+    move_forward(0.8)   # Move Forward down ramp
+    jump()              # Jump
+    move_forward(3)     # Move forward
+    turn_right(0.5)     # Turn towards changing room coridoor
+    move_forward(1.5)   # Move toward changing room
 
 
 except KeyboardInterrupt:
