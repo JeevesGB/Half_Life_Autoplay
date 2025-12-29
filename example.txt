@@ -1,0 +1,24 @@
+walk: 4; // walking is set in steps taken 
+walk_backwards; // walks backwards
+turn_right;  // turns right 90 degrees
+turn -90; // turns back 90 degrees
+turn_left;  // turns left 90 degrees
+jump; // jumps 
+crouch; // crouches
+stand; // stands 
+walk: 10;
+use; // action button
+shoot; 0.5; // shoots for set number of seconds 
+
+
+walk: 4;
+walk_backwards;
+turn_right;
+turn -90;
+turn_left;
+jump;
+crouch;
+stand;
+walk: 10;
+use;
+shoot; 0.5;

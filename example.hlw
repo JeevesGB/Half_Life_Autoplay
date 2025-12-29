@@ -1,0 +1,11 @@
+walk: 4;
+walk_backwards;
+turn_right;
+turn -90;
+turn_left;
+jump;
+crouch;
+stand;
+walk: 10;
+use;
+shoot; 0.5;
